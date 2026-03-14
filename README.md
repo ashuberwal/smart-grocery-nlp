@@ -25,15 +25,20 @@ The backend NLP engine extracts the core noun chunks, ignores irrelevant grammar
 ```bash
 git clone [https://github.com/ashuberwal/smart-grocery-nlp.git](https://github.com/ashuberwal/smart-grocery-nlp.git)
 cd smart-grocery-nlp
+```bash
 **2. Create a virtual environment and install dependencies**
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
+```bash
 **3. Initialize the local database**
 (Note: For this PoC, we use a static SQLite database pre-populated with mock UK supermarket data).
 ```bash
 python create_db.py
+```bash
 **4. Launch the application**
 ```bash
+```bash
 streamlit run app.py
+```bash
